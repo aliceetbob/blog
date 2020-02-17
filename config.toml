@@ -1,0 +1,34 @@
+baseurl = "https://aliceetbob.github.io"
+DefaultContentLanguage = "fr"
+title = "Où est Charly ?"
+theme = "beautifulhugo"
+
+[Params]
+  subtitle = "Alice et Bob"
+  mainSections = ["post","posts"]
+  logo = "img/avatar-icon.jpg"
+  favicon = "img/avatar-favicon.ico"
+  dateFormat = "2 jan 2006"
+  commit = false
+  rss = true
+  comments = true
+  readingTime = true
+  wordCount = true
+  useHLJS = true
+  socialShare = false
+  delayDisqus = true
+  showRelatedPosts = true
+
+
+[Author]
+  name = "Bob"
+
+[[menu.main]]
+    name = "Blog"
+    url = ""
+    weight = 1
+
+[[menu.main]]
+    name = "Tags"
+    url = "tags"
+    weight = 3

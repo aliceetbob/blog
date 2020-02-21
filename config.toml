@@ -2,6 +2,7 @@ baseurl = "https://aliceetbob.github.io"
 DefaultContentLanguage = "fr"
 title = "Où est Charly ?"
 theme = "beautifulhugo"
+googleAnalytics = "UA-158875964-1"
 
 [Params]
   subtitle = "Alice et Bob"
